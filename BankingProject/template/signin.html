@@ -1,0 +1,211 @@
+<!--<Html>-->
+<!--<head>-->
+<!--<title>-->
+<!--Registration Page-->
+<!--</title>-->
+<!--</head>-->
+<!--<body bgcolor="Lightskyblue">-->
+<!--<br>-->
+<!--<br>-->
+<!--<form method="POST" enctype="multipart/form-data">-->
+<!--    {% csrf_token %}-->
+
+<!--<label> Name : </label>-->
+<!--<input type="text" name="firstname" size="15"/> <br> <br>-->
+<!--<label> DOB :</label>-->
+<!--<input type="date" name="middlename" size="15"/> <br> <br>-->
+<!--<label> AGE :</label>-->
+<!--<input type="number" name="lastname" size="15"/> <br> <br>-->
+
+<!--<label>-->
+<!--GENDER :-->
+<!--</label>-->
+<!--<select>-->
+<!--<option value="Male">Male</option>-->
+<!--<option value="Male">Female</option>-->
+
+<!--</select>-->
+
+<!--<br>-->
+<!--<br>-->
+<!--&lt;!&ndash;<label>&ndash;&gt;-->
+<!--&lt;!&ndash;PHONE NUMBER&ndash;&gt;-->
+<!--&lt;!&ndash;</label><br>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="number" name="phone number"/> Male <br>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="radio" name="female"/> Female <br>&ndash;&gt;-->
+<!--&lt;!&ndash;<input type="radio" name="other"/> Other&ndash;&gt;-->
+<!--&lt;!&ndash;<br>&ndash;&gt;-->
+<!--&lt;!&ndash;<br>&ndash;&gt;-->
+
+<!--<label>-->
+<!--PHONE NUMBER:-->
+<!--</label>-->
+<!--<input type="text" name="country code"  value="+91" size="2"/>-->
+<!--<input type="text" name="phone" size="10"/> <br> <br>-->
+<!--    <label> MAIL ID :</label>-->
+<!--<input type="email" name="email" size="15"/> <br> <br>-->
+
+<!--Address-->
+<!--<br>-->
+<!--<textarea cols="80" rows="5" value="address">-->
+<!--</textarea>-->
+<!--<br> <br>-->
+<!--Email:-->
+<!--<input type="email" id="email" name="email"/> <br>-->
+<!--<br> <br>-->
+<!--Password:-->
+<!--<input type="Password" id="pass" name="pass"> <br>-->
+<!--<br> <br>-->
+<!--Re-type password:-->
+<!--<input type="Password" id="repass" name="repass"> <br> <br>-->
+<!--<input type="button" value="Submit"/>-->
+<!--</form>-->
+<!--</body>-->
+<!--</html>-->
+
+
+
+<html>
+<head>
+    <body bgcolor="Lightskyblue">
+
+<title>
+Signin</title>
+<style>
+div
+{
+padding: 10px 0;
+}
+</style>
+<head>
+<body>
+<form method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+
+<div>
+    <label> Name : </label>
+<input type="text" name="firstname" size="15"/> <br> <br>
+<label> DOB :</label>
+<input type="date" name="middlename" size="15"/> <br> <br>
+<label> AGE :</label>
+<input type="number" name="lastname" size="15"/> <br> <br>
+
+<label>
+GENDER :
+</label>
+<select>
+<option value="Male">Male</option>
+<option value="Male">Female</option>
+
+</select>
+
+<br>
+<br>
+<!--<label>-->
+<!--PHONE NUMBER-->
+<!--</label><br>-->
+<!--<input type="number" name="phone number"/> Male <br>-->
+<!--<input type="radio" name="female"/> Female <br>-->
+<!--<input type="radio" name="other"/> Other-->
+<!--<br>-->
+<!--<br>-->
+
+<label>
+PHONE NUMBER:
+</label>
+<input type="text" name="country code"  value="+91" size="2"/>
+<input type="text" name="phone" size="10"/> <br> <br>
+    <label> MAIL ID :</label>
+<input type="email" name="email" size="15"/> <br> <br>
+
+Address
+<br>
+<textarea cols="80" rows="5" value="address">
+</textarea>
+
+<br><br>
+<label>
+District :
+</label>
+<select>
+
+<option value="3" >Ernakulam</option>
+<option value="Male">Palakkad</option>
+<option value="Male">Thrissur</option>
+    <option value="Male">Malappuram</option>
+
+
+
+<option value="Male">Calicut</option>
+
+</select>
+<br> <br>
+
+    <label>
+Account Type :
+</label>
+<select>
+
+<option value="3" >Savings</option>
+<option value="Male">Current</option>
+
+
+</select>
+<br> <br>
+
+    <label name="3" size="3">
+        Materials Provide :</label><br>
+
+<input type="checkbox" name="3"  value="3" size="3"/>
+    Debit Card
+        </label><br>
+    <label name="3" size="3">
+
+
+<input type="checkbox" name="3"  value="3" size="3"/>
+    Credit Card
+        </label><br>
+
+      <label name="3" size="3">
+
+
+<input type="checkbox" name="3"  value="3" size="3"/>
+    Cheque Book
+        </label><br>
+
+
+
+<br> <br>
+<!--Email:-->
+<!--<input type="email" id="email" name="email"/> <br>-->
+<!--<br> <br>-->
+
+<!--<label>Name</label>-->
+<!--<input type="text" placeholder="Enter Name" name="name" required>-->
+<!--</div>-->
+<!--<div>-->
+<!--<label> E-mail </label>-->
+<!--<input type="email" placeholder="Enter email ID" name="email" required>-->
+
+<!--</div>-->
+
+
+<!--<div>-->
+<!--<label>Password</label>-->
+<!--<input type="password" placeholder="Enter Password" name="psw" required>-->
+<!--<br>-->
+<!--  </div>-->
+<!--    <div>-->
+<!--<label>Retype Password</label>-->
+<!--<input type="password" placeholder="confirm password" name="psw" required>-->
+<!--<br>-->
+<!--  </div>-->
+
+    <button type="submit" VALUE="SUBMIT">Submit </button>
+
+
+    <button type="submit" VALUE="SUBMIT">Log Out </button>
+
+</form>
+</body>
+</html>
